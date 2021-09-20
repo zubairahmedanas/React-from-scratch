@@ -7,10 +7,13 @@ import Greet from './components/Greet';
 import Welcome from './components/welcome';
 import Message from './components/Message';
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
 function App() {
   return (
     <div className="App">
-      {/* <Greet name = "Zubair" designationName = 'Software Engineer'>
+      <FunctionClick />
+      <ClassClick />      {/* <Greet name = "Zubair" designationName = 'Software Engineer'>
         <p> he works as a software engineer</p>
       </Greet>
       
@@ -20,7 +23,7 @@ function App() {
       <Welcome name = "Sarwar" designationName = 'Lead Engineer' /> */}
       {/* <Hello/> */}
       {/* <Message /> */}
-      <Counter />
+      {/* <Counter /> */}
     </div>
   );
 }
