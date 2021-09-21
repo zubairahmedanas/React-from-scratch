@@ -5,7 +5,7 @@ class EventBind extends Component {
         super(props)
     
         this.state = {
-             message : 'Hello Client'
+             message : 'Hello'
         }
     }
     Handler(){
