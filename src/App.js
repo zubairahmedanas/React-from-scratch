@@ -10,12 +10,15 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 function App() {
   return (
     <div className="App">
-      <EventBind />
-      <FunctionClick />
-      <ClassClick />      {/* <Greet name = "Zubair" designationName = 'Software Engineer'>
+      <ParentComponent />
+      {/* <EventBind /> */}
+      {/* <FunctionClick /> */}
+      {/* <ClassClick />       */}
+      {/* <Greet name = "Zubair" designationName = 'Software Engineer'>
         <p> he works as a software engineer</p>
       </Greet>
       
