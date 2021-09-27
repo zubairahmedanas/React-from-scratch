@@ -10,17 +10,17 @@ class UserGreeting extends Component {
     }
     
     render() { 
-        "Short Circuit Operator"
+        
 
-        // return this.state.isLoggedIn && <h1>Hello  Anas</h1>
-        "Ternary Conditional Operator"
-        // return(
-        //     this.state.isLoggedIn ?
-        //     <h1>Hello Anas</h1> :
-        //     <h1>Hello Zubair</h1> 
+        return this.state.isLoggedIn && <h1>Hello  Anas</h1>
+        
+        return(
+            this.state.isLoggedIn ?
+            <h1>Hello Anas</h1> :
+            <h1>Hello Zubair</h1> 
 
-        // )
-        "Element Variable "
+        )
+       
         // let msg
         // if(this.state.isLoggedIn){
         //     msg = <h1>Hello Anas</h1>
@@ -29,7 +29,7 @@ class UserGreeting extends Component {
         // }
         // return <div>{msg}</div>
 
-        "IF ELSE"
+        
         // if (this.state.isLoggedIn){
         //     return(
         //         <h1>Hello Anas</h1>
